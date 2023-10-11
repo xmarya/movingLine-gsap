@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Staatliches";
+}
+
+body {
+    background-color: hsl(13, 50%, 50%);
+    max-width: 120rem;
+}
+
+.timeline-container {
+    background-color: aquamarine;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50rem auto;
+}
+
+.spacer {
+    background-color: blueviolet;
+    height: 50vh;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+    border-bottom: 1rem solid #888;
+
+}
+
+.number {
+    font-size: 20rem;
+    color: darkgrey;
+    text-align: center;
+}
+
+.line-holder {
+    width: 2rem;
+    height: 20rem;
+    overflow: hidden; /* where the trick is*/
+    background-color: #222;
+}
+
+.line {
+    width: 100%;
+    height: 95%;
+    background:#ff7b3e; /* orange */
+}
